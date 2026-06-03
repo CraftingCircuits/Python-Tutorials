@@ -1,0 +1,3 @@
+print(
+    "Char vagan cha mane joiye... modu thay to mathu maru dukha.. aa bhaibandho ee latte lagadi ree.. madhri chaaa mane mehenke chhe!"
+)
