@@ -1,0 +1,41 @@
+# developing a particular pattern using for loop
+# Number of rows for the top half
+n = 5
+
+# Top half of the pattern
+for i in range(1, n + 1):
+    print("* " * i)
+
+# Bottom half of the pattern
+for i in range(n - 1, 0, -1):
+    print("* " * i)
+
+
+# usage string
+def process_string(input_string):
+    # convert to uppercase
+    upper_string = input_string.upper()
+    # finding length
+    length = len(input_string)
+    return upper_string, length
+
+
+# example usage
+input_str = "Hello World"
+upper_str, str_length = process_string(input_str)
+print("Uppercase String:", upper_str)
+print("Length of string:", str_length)
+
+# without using functions
+# Input string
+input_string = "Hello World"
+
+# Convert to uppercase
+upper_string = input_string.upper()
+
+# Find length of the string
+length = len(input_string)
+
+# Print the results
+print("Uppercase String:", upper_string)
+print("Length of String:", length)

@@ -7,7 +7,7 @@
 # '+' - opens file for updation reading or writing
 
 # write a program to read the contents of the file named 'test.txt'
-file1 = open("test.txt", "r")
+file1 = open("fileDemo1.txt", "r")
 content = file1.read()
 print(content)
 # we can also write it directly - print(file1.read())
@@ -15,7 +15,7 @@ file1.close()
 
 
 # write a program to read and display first two lines of the text file
-file2 = open("test.txt", "r")
+file2 = open("fileDemo1.txt", "r")
 line1 = file2.readline()
 line2 = file2.readline()
 print("\n")
@@ -24,7 +24,7 @@ print(line2)
 file2.close()
 
 # write a program to read and display all the lines of the text file
-file3 = open("test.txt", "r")
+file3 = open("fileDemo1.txt", "r")
 lines = file3.readlines()
 print("\n")
 for line in lines:
@@ -32,7 +32,7 @@ for line in lines:
 file3.close()
 
 # write a program to display the contents of the file as list
-file4 = open("test.txt", "r")
+file4 = open("fileDemo1.txt", "r")
 lines_list = file4.readlines()
 print("\n")
 print(lines_list)
@@ -50,7 +50,7 @@ print(list(lines_list))
 
 
 # opening the file using with statement
-with open("test.txt", "r") as file5:
+with open("fileDemo1.txt", "r") as file5:
     content5 = file5.read()
     print("\n")
     print(content5)

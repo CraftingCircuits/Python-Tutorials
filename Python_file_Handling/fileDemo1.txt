@@ -1,0 +1,5 @@
+Welcome to Python File Handling.
+This file is created for learning purposes.
+Python can read, write, and modify files.
+File handling is useful for storing data permanently.
+Practice regularly to improve your programming skills.

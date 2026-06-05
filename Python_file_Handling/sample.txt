@@ -3,4 +3,4 @@ This is my first file.
 let's read this file in Python.
 Harry was a is boy.
 Myra was a good girl.
-Piyush was a good boy.
+John was a good boy.

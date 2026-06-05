@@ -4,22 +4,22 @@
 import json
 
 # using json.loads() method
-x = '{"name": "Gaurav", "year": 2003, "age": 21}'
+x = '{"name": "John", "year": 2003, "age": 21}'
 y = json.loads(x)
 print(y["age"])
 
 # converting python to json using dump() method
-x = {"name": "Gaurav", "year": 2003, "age": 21}
+x = {"name": "John", "year": 2003, "age": 21}
 y = json.dumps(x)
 print("\n")
 print(y)
 
 # converting python objects to json strings
 print("\n")
-print(json.dumps({"name": "Gaurav", "year": 2003, "age": 21}))
+print(json.dumps({"name": "John", "year": 2003, "age": 21}))
 print(json.dumps(("apple", "banana")))
 print(json.dumps(["apple", "banana"]))
-print(json.dumps("hell0"))
+print(json.dumps("hello"))
 print(json.dumps(35))
 print(json.dumps(52.35))
 print(json.dumps(True))
@@ -28,11 +28,11 @@ print(json.dumps(None))
 
 # converting python object containing all the legal data types
 x = {
-    "name": "Gaurav",
+    "name": "John",
     "age": 21,
     "married": True,
     "divorced": False,
-    "siblings": ("latika", "mrunal"),
+    "siblings": ("Rose", "Monica"),
     "pets": None,
     "cars": [{"model": "Porsche", "mpg": 29.5}, {"model": "lamborghini", "mpg": 14.7}],
 }

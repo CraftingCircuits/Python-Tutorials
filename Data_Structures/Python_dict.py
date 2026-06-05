@@ -1,31 +1,31 @@
 # Python Dictionary
 # dictionary is used to store data in key:value format
 # dictionary is what, changeable, ordered, and don not allow duplicates
-mydict = {"name": "Gaurav", "age": 22, "year": 2025}
+mydict = {"name": "John", "age": 22, "year": 2025}
 print(mydict)
 
 # printing specific value form the dictionary
 print("\n")
 print("printing specific value from dictionary")
-mydict = {"name": "Gaurav", "age": 22, "year": 2025}
+mydict = {"name": "John", "age": 22, "year": 2025}
 print(mydict["age"])
 
 # duplicates are not allowed in dictionary
 print("\n")
-mydict = {"name": "Gaurav", "age": 22, "year": 2025, "year": 2002}
+mydict = {"name": "John", "age": 22, "year": 2025, "year": 2002}
 print(mydict)
 
 # length of the dictionary
 print("\n")
 print("length of the dictionary")
-mydict = {"name": "Gaurav", "age": 22, "year": 2025}
+mydict = {"name": "John", "age": 22, "year": 2025}
 print(len(mydict))
 
 # data type of the dictionary
 print("\n")
 print("type of the dictionary")
 mydict = {
-    "name": "Gaurav",
+    "name": "John",
     "age": 22,
     "year": 2025,
     "condition": True,
@@ -42,7 +42,7 @@ print(mydict)
 # accessing items from the dictionary
 print("\n")
 print("accessing items from the dictionary")
-mydict = {"name": "Gaurav", "age": 22, "year": 2025}
+mydict = {"name": "John", "age": 22, "year": 2025}
 x = mydict["age"]
 print(x)
 # using get method to access item
@@ -65,11 +65,11 @@ x = mydict.items()
 print(x)
 # check if key exists
 if "age" in mydict:
-    print("Gaurav's age is right.")
+    print("John's age is right.")
 # updating dictionary
 mydict.update({"year": 2024})
 print(mydict)
-mydict.update({"name": "Gauri"})
+mydict.update({"name": "John"})
 print(mydict)
 # removing items from the dictionary
 # pop() method will remove specified key item from the dictionary
@@ -85,7 +85,7 @@ print(mydict)
 del mydict
 
 # deleting whole dictionary using clear method
-mydict = {"name": "Gaurav", "age": 22, "year": 2025}
+mydict = {"name": "John", "age": 22, "year": 2025}
 mydict.clear()
 print(mydict)
 
@@ -93,7 +93,7 @@ print(mydict)
 # looping using for loop
 print("\n")
 print("looping dictionaries using for loop")
-mydict = {"name": "Gaurav", "age": 22, "year": 2025}
+mydict = {"name": "John", "age": 22, "year": 2025}
 for x in mydict:
     print(x)
 print("\n")
@@ -109,7 +109,7 @@ for x, y in mydict.items():
 # copying one dictionary to another one
 # copying dictionary using copy function
 print("\n")
-dict1 = {"name": "Gaurav", "age": 22, "year": 2025}
+dict1 = {"name": "John", "age": 22, "year": 2025}
 dict2 = {"state": "Gujarat", "district": "mehsana", "city": "Visnagar"}
 print("copying dictionary using copy function")
 dict1 = dict2.copy()

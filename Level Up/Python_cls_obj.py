@@ -10,7 +10,7 @@ class person:
         self.age = age
 
 
-p1 = person("Gaurav", 21)
+p1 = person("John", 21)
 print(p1.name)
 
 
@@ -25,7 +25,7 @@ class person:
         return f"{self.name} is {self.age} years old."
 
 
-p1 = person("Gaurav", 21)
+p1 = person("John", 21)
 print(p1)
 
 
@@ -39,7 +39,7 @@ class person:
         print(f"{self.name} is {self.age} years old.")
 
 
-p1 = person("Gaurav", 21)
+p1 = person("John", 21)
 p1.myFun()
 # Now modifying object's properties
 p1.age = 22
